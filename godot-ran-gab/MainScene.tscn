@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://be2d3248icl8v"]
+
+[ext_resource type="PackedScene" uid="uid://dop2romhysiwx" path="res://Chracter.tscn" id="1_3mqji"]
+[ext_resource type="Texture2D" uid="uid://ssn3evinc4nl" path="res://Assets/gradient-dark-background-illustration-lg.jpeg" id="1_rpqi1"]
+
+[node name="MainScene" type="Node2D" unique_id=2071141835]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=595011116]
+position = Vector2(606.99994, 956)
+scale = Vector2(1.869406, 1.869406)
+texture = ExtResource("1_rpqi1")
+
+[node name="Chracter" parent="." unique_id=250168804 instance=ExtResource("1_3mqji")]
+position = Vector2(540, 400)
+speed = 400

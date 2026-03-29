@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://dop2romhysiwx"]
+
+[ext_resource type="Script" uid="uid://cfv5hjfyia3mf" path="res://Scripts/player_movement.gd" id="1_o4ww8"]
+[ext_resource type="Texture2D" uid="uid://crob8sll1la5e" path="res://Assets/PNG/Slime2/Without_shadow/Slime2_Idle_without_shadow.png" id="1_wrvvj"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wrvvj"]
+size = Vector2(131, 120)
+
+[node name="Chracter" type="CharacterBody2D" unique_id=1821219581]
+motion_mode = 1
+script = ExtResource("1_o4ww8")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=758411301]
+scale = Vector2(5, 5)
+texture = ExtResource("1_wrvvj")
+region_enabled = true
+region_rect = Rect2(0, 0, 64, 64)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1355324085]
+position = Vector2(4.5, -11)
+shape = SubResource("RectangleShape2D_wrvvj")

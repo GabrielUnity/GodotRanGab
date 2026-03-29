@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://bkgigno15u5tc"]
+
+[ext_resource type="Texture2D" uid="uid://ssn3evinc4nl" path="res://Assets/gradient-dark-background-illustration-lg.jpeg" id="1_xxgf6"]
+
+[node name="Wall" type="Node2D" unique_id=264476739]
+position = Vector2(25, 26)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1730458483]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=366812974]
+scale = Vector2(151.99998, 115)
+texture = ExtResource("1_xxgf6")

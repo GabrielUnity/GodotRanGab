@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://bm7uqxfedoq4g"]
+
+[ext_resource type="Texture2D" uid="uid://cl4h65f35s6sh" path="res://Assets/PNG/Slime1/With_shadow/Slime1_Attack_with_shadow.png" id="1_so71d"]
+
+[node name="Tex" type="Node2D" unique_id=110459328]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=920935042]
+texture = ExtResource("1_so71d")
+region_enabled = true
+region_rect = Rect2(0, 0, 64, 64)
