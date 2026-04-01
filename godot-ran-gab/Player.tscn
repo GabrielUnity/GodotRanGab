@@ -1,21 +1,21 @@
-[gd_scene format=3 uid="uid://dop2romhysiwx"]
+[gd_scene format=3 uid="uid://2ecvicnohrgy"]
 
-[ext_resource type="Script" uid="uid://cwlewekr7s13t" path="res://Scripts/hiire_jalitamine.gd" id="1_o4ww8"]
-[ext_resource type="Texture2D" uid="uid://hnk2my25s6yw" path="res://Assets/Ninja.png" id="2_o4ww8"]
+[ext_resource type="Script" uid="uid://cfv5hjfyia3mf" path="res://Scripts/player_movement.gd" id="1_kpjcp"]
+[ext_resource type="Texture2D" uid="uid://hnk2my25s6yw" path="res://Assets/Ninja.png" id="2_kne1u"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wrvvj"]
-size = Vector2(131, 120)
+size = Vector2(59, 69)
 
 [node name="Chracter" type="CharacterBody2D" unique_id=1821219581]
 motion_mode = 1
-script = ExtResource("1_o4ww8")
+script = ExtResource("1_kpjcp")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=758411301]
-scale = Vector2(0.275, 0.275)
-texture = ExtResource("2_o4ww8")
+scale = Vector2(0.12, 0.12)
+texture = ExtResource("2_kne1u")
 region_enabled = true
 region_rect = Rect2(226.04932, 503.5171, 601.7295, 787.97925)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1355324085]
-position = Vector2(4.5, -11)
+position = Vector2(1.5, -2.5)
 shape = SubResource("RectangleShape2D_wrvvj")

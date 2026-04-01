@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-@export var speed = 200
+@export var speed = 400
 @export var gravity = 0
 
 #func _input(event: InputEvent) -> void:
@@ -32,3 +32,4 @@ func _process(delta):
 		velocity.y += gravity * delta
 
 	move_and_slide()
+	
