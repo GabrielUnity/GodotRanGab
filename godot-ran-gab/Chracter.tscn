@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dop2romhysiwx"]
 
-[ext_resource type="Script" uid="uid://cwlewekr7s13t" path="res://Scripts/hiire_jalitamine.gd" id="1_o4ww8"]
+[ext_resource type="Script" uid="uid://cwlewekr7s13t" path="res://Scripts/vaenlane_1_suvakas_liikumine.gd" id="1_o4ww8"]
 [ext_resource type="Texture2D" uid="uid://hnk2my25s6yw" path="res://Assets/Ninja.png" id="2_o4ww8"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wrvvj"]
@@ -17,5 +17,5 @@ region_enabled = true
 region_rect = Rect2(226.04932, 503.5171, 601.7295, 787.97925)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1355324085]
-position = Vector2(4.5, -11)
+position = Vector2(802, -172)
 shape = SubResource("RectangleShape2D_wrvvj")

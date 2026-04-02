@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="GodotRanGab"
-run/main_scene="uid://be2d3248icl8v"
+run/main_scene="uid://dqu8enqahkaaj"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 

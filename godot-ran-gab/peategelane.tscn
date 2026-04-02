@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://w1ugduexepcf"]
+
+[ext_resource type="Script" uid="uid://bdpebqgq6anim" path="res://Scripts/peategelase liikumine ja surm.gd" id="1_p5xvl"]
+[ext_resource type="Texture2D" uid="uid://bwe42ttqqlpm3" path="res://Assets/ChatGPT Image Apr 2, 2026, 07_11_40 PM.png" id="1_wq14p"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_p5xvl"]
+radius = 138.05795
+
+[node name="peategelane_1" type="CharacterBody2D" unique_id=1745468038]
+position = Vector2(-2, -1)
+script = ExtResource("1_p5xvl")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=564822429]
+position = Vector2(572, 848)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("1_wq14p")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1211713255]
+position = Vector2(573, 843)
+scale = Vector2(0.5, 0.5)
+shape = SubResource("CircleShape2D_p5xvl")
