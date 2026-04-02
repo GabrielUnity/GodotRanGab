@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-var speed = 200
+var speed = 1000
 
 func _physics_process(delta):
 	# Liikumine nooltega
