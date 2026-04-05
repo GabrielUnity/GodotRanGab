@@ -1,12 +1,12 @@
 [gd_scene format=3 uid="uid://dqu8enqahkaaj"]
 
 [ext_resource type="Script" uid="uid://dqo61cs45hnmr" path="res://Scripts/Main_Menu.gd" id="1_cqjrg"]
-[ext_resource type="Texture2D" uid="uid://ch65lnd61ubc7" path="res://Assets/ChatGPT Image Apr 2, 2026, 06_26_53 PM.png" id="2_e2xy7"]
-[ext_resource type="Texture2D" uid="uid://kbi3t3mciqiu" path="res://Assets/Dodge game UI buttons set.png" id="3_fimr5"]
-[ext_resource type="Texture2D" uid="uid://bwe42ttqqlpm3" path="res://Assets/ChatGPT Image Apr 2, 2026, 07_11_40 PM.png" id="4_u7cqb"]
-[ext_resource type="Texture2D" uid="uid://hus7hhl45e8n" path="res://Assets/ChatGPT Image Apr 2, 2026, 06_54_38 PM (1).png" id="5_afec1"]
-[ext_resource type="Texture2D" uid="uid://haunyip4l004" path="res://Assets/ChatGPT Image Apr 2, 2026, 06_54_38 PM (2).png" id="6_31qfy"]
-[ext_resource type="Texture2D" uid="uid://bjx3f18exm0db" path="res://Assets/play nupp.png" id="7_qie43"]
+[ext_resource type="Texture2D" uid="uid://ch65lnd61ubc7" path="res://Assets/DarkBackgroundImage.png" id="2_e2xy7"]
+[ext_resource type="Texture2D" uid="uid://kbi3t3mciqiu" path="res://Assets/DodgeLogo.png" id="3_fimr5"]
+[ext_resource type="Texture2D" uid="uid://bwe42ttqqlpm3" path="res://Assets/PlayerSprite.png" id="4_u7cqb"]
+[ext_resource type="Texture2D" uid="uid://hus7hhl45e8n" path="res://Assets/SoloButtonSprite.png" id="5_afec1"]
+[ext_resource type="Texture2D" uid="uid://haunyip4l004" path="res://Assets/VSButtonSprite.png" id="6_31qfy"]
+[ext_resource type="Texture2D" uid="uid://bjx3f18exm0db" path="res://Assets/PlayNupp.png" id="7_qie43"]
 
 [node name="MainMenu" type="Control" unique_id=801340839]
 layout_mode = 3

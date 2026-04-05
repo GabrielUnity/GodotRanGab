@@ -1,12 +1,12 @@
 [gd_scene format=3 uid="uid://be2d3248icl8v"]
 
-[ext_resource type="PackedScene" uid="uid://buic40qicsrl0" path="res://vaenlane_1.tscn" id="2_rpqi1"]
-[ext_resource type="PackedScene" uid="uid://w1ugduexepcf" path="res://peategelane.tscn" id="3_rpqi1"]
-[ext_resource type="Texture2D" uid="uid://ch65lnd61ubc7" path="res://Assets/ChatGPT Image Apr 2, 2026, 06_26_53 PM.png" id="3_uxrcv"]
+[ext_resource type="PackedScene" uid="uid://buic40qicsrl0" path="res://Vaenlane_1.tscn" id="2_rpqi1"]
+[ext_resource type="PackedScene" uid="uid://w1ugduexepcf" path="res://Peategelane.tscn" id="3_rpqi1"]
+[ext_resource type="Texture2D" uid="uid://ch65lnd61ubc7" path="res://Assets/DarkBackgroundImage.png" id="3_uxrcv"]
 
 [node name="MainScene" type="Node2D" unique_id=2071141835]
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=512447444]
+[node name="Taust" type="Sprite2D" parent="." unique_id=512447444]
 scale = Vector2(1.148936, 1.1490126)
 texture = ExtResource("3_uxrcv")
 centered = false
